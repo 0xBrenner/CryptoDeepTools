@@ -3,7 +3,6 @@
 import ecdsa 
 import hashlib
 import binascii
-from secp256k1 import secp256k1
 
 # https://en.bitcoin.it/wiki/Brainwallet
 def generate_address(private_key):
